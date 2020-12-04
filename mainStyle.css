@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100%;
+}
+#container::before{
+    content: "";
+    background: url(static/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.heading{
+    margin: 15px;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+.para{
+    padding: 2%;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+.box{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 40px;
+    transform: scale(1.2);
+}
+#rules{
+    font-size: 18px;
+    font-family: cursive;
+    padding-left: 5px;
+}
+
+
+#button{
+	display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+#button ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:2%;
+    margin-left: 3%;
+}
+
+#button ul li{
+	
+	list-style: none;
+    font-size: 1.3rem;
+}
+
+#button ul li a{
+    text-decoration: none;
+}
+
+#button ul li button{
+	color: white;
+	display: block;
+	padding: 3px 22px;
+    border-radius: 20px;
+    margin: 15px;
+    height: 80px;
+    width: 250px;
+    font-size: 20px;
+    font-family: cursive;
+    outline: none;
+    text-decoration: none;
+    background-color: #5d5147b8;
+}
+#button ul li button:hover{
+    background-color: #7a9482bb;
+    cursor: pointer;
+}

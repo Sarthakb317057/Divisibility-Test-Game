@@ -1,4 +1,5 @@
 This game Tests Learning, Engagment, Speed and Accuracy of Student in Divisibility Rules for Numbers 2, 3, 4, 5, 6, 8 and 9.
+
 Technical Stack:- HTML, CSS and JavaScript.
 
 <img src="static/img.jpg" width="700" height="400">
